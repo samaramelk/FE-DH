@@ -1,2 +1,1 @@
-# fei
-Disciplina Front End I
+FRONT END I - Thiago e JP
