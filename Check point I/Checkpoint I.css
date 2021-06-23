@@ -1,0 +1,140 @@
+body {  
+  color: #444444;
+  padding: 0;
+  font: 12px Georgia, serif;
+  line-height: 25px;
+  background: #ffffff url(https://cdn.awsli.com.br/608/608801/arquivos/bg-novo-site.pnghttps://sites.google.com/site/pipdigz/bunting1.png) repeat-x scroll top center;
+ 
+ 
+  
+}
+main {
+  padding: 20px;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+h1 {
+  color: #666666;
+  font-family: 70px Georgia, serif;
+  letter-spacing: 2px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: center;
+  background: url(https://sites.google.com/site/pipdigz/homestead-leaves.png) no-repeat scroll center bottom;
+  margin: 70px auto 45px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  color: #666666;
+  font: 30px arial;
+  letter-spacing: 2px;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: center;
+      margin: 70px auto 45px;
+  padding-bottom: 50px;
+  
+}
+
+nav {
+  text-align: center;
+  display: block;
+  color: #666666;
+  font: 12px oswald,sans-serif;
+  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 2px;
+   cursor: pointer;
+   background: #ebb6b6;
+    min-height: 40px;
+}
+
+
+
+ul {
+  color: #aaa;
+  text-decoration: none;
+text-transform: uppercase;
+background: #ebb6b6;
+margin: 0 auto;
+  width: 850px;
+}
+
+ul  a:hove {
+  color: #aaa;
+  text-decoration: none;
+}
+
+nav li a {
+  display: block;
+  font-size: 11px;
+  padding: 10px 30px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 110%;
+  text-align: justify;
+}
+
+/*font awesome*/
+.fa, .fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 20px;
+  color: #fff;
+}
+
+.far {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 20px;
+  color: #fff;
+}
+
+.fab{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+/*fim*/
+
+a {
+  display: block;
+  color: #666;
+  font: 12px oswald,sans-serif;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  padding: 10px 25px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  float:left;
+    
+    
+}
+
+footer{
+  background: #ebb6b6;
+  width: 100%;
+  color: #666;
+  font: 12px oswald,sans-serif;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+section.loja {
+  border: #f4f4f4;
+  border-style: double;
+}
+
