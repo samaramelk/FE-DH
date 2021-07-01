@@ -1,10 +1,9 @@
 body {  
   color: #444444;
   padding: 0;
-  font: 12px Georgia, serif;
+  font: 12px 'Josefin Sans', sans-serif;
   line-height: 25px;
   background: #ffffff url(https://sites.google.com/site/pipdigz/bunting1.png) repeat-x scroll top center;
- 
  
   
 }
@@ -16,7 +15,7 @@ main {
 
 h1 {
   color: #666666;
-  font: 70px arial;
+  font-family: 70px 'Josefin Sans', sans-serif;
   letter-spacing: 2px;
   line-height: 130%;
   text-transform: uppercase;
@@ -132,3 +131,9 @@ footer{
   text-decoration: none;
   text-transform: uppercase;
 }
+
+section.loja {
+  border: #f4f4f4;
+  border-style: double;
+}
+

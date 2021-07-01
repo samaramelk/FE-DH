@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Página HTML5 simples</title>
+        <title>FORMULÁRIO</title>
         <link rel="stylesheet" href="style.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,12 +16,12 @@
         <header>
             <hgroup>
                 <h1>MEU PRIMEIRO SITE</h1>
-                <h2>Eu que lute pra isso dar certo!</h2>
+                <h2>Bora lá quebrar a cabeça! :)</h2>
             </hgroup>
             <nav>
                 <ul>
                     <a href="inicio.html"><i class="fas fa-home"></i>Início</a>
-                    <a href="formulario.html"><i class="fas fa-info-circle"></i>Formulario</a>
+                    <a href="formulario.html"><i class="fas fa-info-circle"></i>Formulário</a>
                     <a href="noticias.html"><i class="far fa-heart"></i>Notícias</a>
                     <a href="blog.html"><i class="fab fa-wordpress"></i>Blog</a>
                     <a href="contato.html"><i class="far fa-envelope"></i>Contato</a>
@@ -31,21 +31,30 @@
         </header>
         <main>
         <section>
-            <h2>ENTRE EM CONTATO</h2>
+            <h2>NOVO CADASTRO</h2>
             
         <section>
-            <mark>Para maior compreensão de como funciona o css, esta página não inclui nenhum código CSS3.</mark>
-        <form actionn='/login' methiod='POST'>
-            <div>       
-        <label for='email-telefone'>Email ou Telefone</label>
-        <input type='email' id='email-telefone' name='email-telefone'>
-        <div>
+            <form actionn='/login' methiod='POST'>
 
-        <label for='email-telefone'>Email ou Telefone</label>
-        <input type='password' name='senha'>
-    <button type='submit'>ENTRAR</button></button>
-      
-<form>
+                <div>       
+                    <label for='nome-completo'>Nome completo</label>
+                    <input type='text' id='nome-completo' name='nome-completo'>
+                </br>
+                     
+                    <label for='tipo-cliente'>Tipo:</label>
+                    <input type='radio' id='tipo-cliente' name='tipo' value='Pessoa Física' ><label>Pessoa Física</label>
+                    <input type='radio' id='tipo-cliente' name='tipo' value='Pessoa Jurídica' ><label>Pessoa Física</label>
+                </br>
+                    <label for='cpf'>Informe o CPF:</label>
+                    <input type='number' id='cpf' name='cpf'  maxlength='11' mask='000.000.000-00' placeholder='Informe o CPF' />
+                </br>
+                <label for='bday'>Data de nascimento:</label>
+                    <input type='number' id='bday' name='bday'  maxlength='8' mask='00/00/0000' placeholder='00/00/0000' />
+                </br>
+
+
+                <div>
+            </form>   
 
         </section>
         </main>
