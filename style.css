@@ -148,13 +148,16 @@ section.loja {
   border-style: double;
 }
 
+/* dividir coluna da pg blog */
 .linha{
   display: flex;
   flex-flow: row wrap;
   }
 
   .coluna-50 {
-    width: 49%;
-    padding: 5px;
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box; 
 }
+/* fim */
 
