@@ -4,7 +4,7 @@ body {
   font: 12px 'Josefin Sans', sans-serif;
   line-height: 25px;
   background: #ffffff url(https://sites.google.com/site/pipdigz/bunting1.png) repeat-x scroll top center;
- 
+  text-align: justify;
   
 }
 main {
@@ -23,18 +23,20 @@ h1 {
   background: url(https://sites.google.com/site/pipdigz/homestead-leaves.png) no-repeat scroll center bottom;
   margin: 70px auto 45px;
   padding-bottom: 50px;
+  font-size: 50px;
 }
 
 h2 {
   color: #666666;
-  font: 30px arial;
+  font-family: 'Sacramento', cursive;
   letter-spacing: 2px;
   line-height: 130%;
-  text-transform: uppercase;
+  text-transform: none;
   text-align: center;
       margin: 70px auto 45px;
   padding-bottom: 50px;
-  
+  font-size: 40px;
+  font-weight: 400;
 }
 
 nav {
@@ -102,6 +104,16 @@ p {
   font-size: 20px;
   color: rgb(255, 255, 255);
 }
+
+i.fas.fa-heart {
+  color: red;
+  font-size: inherit;
+}
+
+::before {
+  margin-right: 3px;
+}
+
 /*fim*/
 
 a {
@@ -121,19 +133,29 @@ a {
 
 footer{
   background: #ebb6b6;
-  width: 100%;
   color: #666;
   font: 12px oswald,sans-serif;
   line-height: 1.5;
   letter-spacing: 2px;
-  padding: 10px 25px;
+  padding: 20px 25px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  margin-bottom: -10px;
 }
 
 section.loja {
   border: #f4f4f4;
   border-style: double;
+}
+
+.linha{
+  display: flex;
+  flex-flow: row wrap;
+  }
+
+  .coluna-50 {
+    width: 49%;
+    padding: 5px;
 }
 

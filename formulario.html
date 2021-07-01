@@ -9,6 +9,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
            
     </head>
 
@@ -31,7 +34,7 @@
         </header>
         <main>
         <section>
-            <h2>NOVO CADASTRO</h2>
+            <h2>Novo Cadastro</h2>
             
         <section>
             <form actionn='/cadastro' methiod='POST'>
@@ -46,10 +49,10 @@
                     <input type='radio' id='tipo-cliente' name='tipo-cliente' value='Pessoa Jurídica' ><label>Pessoa Física</label>
                 </br>
                     <label for='cpf'>Informe o CPF:</label>
-                    <input type='number' id='cpf' name='cpf'  maxlength='11' mask='000.000.000-00' placeholder='Informe o CPF' />
+                    <input type='text' id='cpf' name='cpf'  maxlength='11' mask='000.000.000-00' placeholder='000.000.000-00' />
                 </br>
                 <label for='bday'>Data de nascimento:</label>
-                    <input type='date' id='bday' name='bday'  maxlength='8' mask='00/00/0000' placeholder='00/00/0000' />
+                    <input type='date' id='bday' name='bday'  maxlength='8' mask='00/00/0000' />
                 </br>
                 <label for='genero'>Gênero:</label>
                     <input type='radio' id='genero' name='genero' value='Feminino' ><label>Feminino</label>
@@ -84,9 +87,11 @@
         </section>
         </main>
         <footer>
-            <p>
-                Feito com <i class="fas fa-heart"></i> e muita raiva!
-            </p>
-        </footer>
+        <coluna>
+           
+            Feito com <i class="fas fa-heart" ></i> e muita raiva!
+      
+    </coluna>
+</footer>
     </body>
 </html>
